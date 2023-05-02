@@ -1,97 +1,133 @@
 *{
-    margin: 0px;
-    padding: 0px;
+   margin: 0px;
+   padding: 0px;
+   font-family: Helvetica;
+   
 }
-
-.logo {  
-    background: rgb(0, 195, 255);
-    
-    height: 135px;
+.titulo{
+background-color: #00A6FB;
+height: 55px;
 }
-.borda {
-    border: 2px solid black;
-    margin: 20px;
+.corpo{
+background-color: #eee;
+border-top: 8px solid #00A6FB;
 }
-
-.h2{
-    font-size: 23px;
- text-align: left;
-margin: 40px;
-margin-left: 100px;
-
-
-
-}
-
-.botao1 {
-    font-size: 20px;
-color: #ffffff;
-background-color: #00BFFF;
+.pesquisar{
+background-color: #fff;
+width: 750px;
+height: 28px;
+margin-left: 50px;
+margin-right: 150px;
+font-size: 20px;
+text-align: left;
 border-radius: 10px;
-float: right;
-width: 150px;
-height: 45px;
-margin-top: -65px;
-text-align: center;
-margin-right: 100px;
+border-color:#000000;
+}
+.cadastro{
+background-color: #116D9C;
+margin-right: 30px;
+height: 30px;
+width: 100px;
+font-size: 15px;
+border-color: #116D9C;
+color: #fff;
 
 }
-
-.yuyu{
-    float: left;
-width: 28px;
-height: 13px;
-text-align: right;
-margin-right: -17px
+.cadastro:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+background-color: #00A6FB;
+border-color: #00A6FB;
 }
-
-.fundo {
-    background-size: 100%;
-
-
-
+.login{
+background-color: #00A6FB; 
+height: 30px;
+width: 100px;
+font-size: 15px;
+border-color: #00A6FB;
+color: #fff;
 }
-
-input{
-border: 1px solid rgb(0, 0, 0);
-width: 850px;
-height: 40px;
+.login:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+background-color: #116D9C;
+border-color: #116D9C;
+}
+.texto {
+font-size: 22px;
+}
+.texto2{
+font-size: 30px;
+margin-left: 60px;
+max-height: 100px;
+width: 400px;
+}
+.buton{
+width: 210px;
+height: 180px;
+margin-left: 60px;
+margin-right: 40px;
+border-color: #fff;
+background-color: solid #fff;
+font-size: 15px;
+border-radius: 10px;
 font-size: 25px;
+
+}
+.buton:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+background-color: #00A6FB;
+border-color: #00A6FB;
+}
+.linha1{
+margin-left: 63px;
+
+
+}
+.linha2{
+margin-left: 450px;
+
+}
+.linha3{
+margin-left: 900px;
+
 }
 
-.sla{
-    margin-left: 30px;
-margin-top: 5px;
+.botoes{
+   border: 10px solid transparent;
 }
 
-.calend{
-    width: 70px;
-height: 47px
+.img1{
+   margin-left: 15px;
+   height: 50px;
+   width: 160px;
+
 }
 
 
 .rodape{
-    text-align: left;
-    padding: 10px;
-    background-color: #00A6FB;
-    margin-top: 24px;
-    color: #fff;
- }
+   text-align: left;
+   padding: 14px;
+   background-color: #00A6FB;
+   margin-top: 24px;
+   color: #fff;
+}
 
- 
- .botao-marcado {
-    position: relative;
-  }
-  
-  .botao-marcado::before {
-    content: "✓";
-    position: absolute;
-    top: -9px;
-    right: 7;
-    bottom: 0;
-    left: 0;
-    font-size: 19px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-  }
-  
+body {
+   background: url(../imagens/imagemfundo.png) no-repeat center center fixed;
+   background-size: cover;
+   height: 100px;
+   
+}
+
+
+.butao{
+   background-color: transparent;
+   border-color: transparent;
+   margin-right: 120px;
+   margin-left: 50px;
+   font-size: 30px;
+   padding: 10px;
+}
+
